@@ -5,6 +5,7 @@ from models.state import State
 from models.city import City
 from models.amenity import Amenity
 from models.place import Place
+import uuid
 from os import environ
 from flask import Flask, render_template
 app = Flask(__name__)
